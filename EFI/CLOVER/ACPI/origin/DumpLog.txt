@@ -1,0 +1,186 @@
+33:584  0:179  Found BIOS RSDP at F0020
+33:584  0:000  Printing ACPI tables from RSDP F0020 ...
+33:584  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+33:584  0:000    (Xsdt: 796F70B0, Rsdt: 796F7028)
+33:584  0:000    796F70B0: 'XSDT', 'CBX3', Rev: 1, Len: 228
+33:584  0:000    796F7028: 'RSDT', 'CBX3', Rev: 1, Len: 132
+33:584  0:000    Tables in Xsdt: 24
+33:584  0:000    0. 79718180: 'FACP', 'CBX3', Rev: 5, Len: 268
+33:584  0:000        (Dsdt: 796F7228, Facs: 79EDCF80, XDsdt: 796F7228, XFacs: 0)
+33:584  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:586  0:001        79EDCF80: 'FACS', Ver: 2, Len: 64
+33:586  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:586  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:586  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:586  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:586  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:586  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:586  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:586  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:586  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:586  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:586  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:586  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:586  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:586  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:586  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:586  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:586  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:586  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:586  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:586  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:586  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:586  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:586  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
+33:586  0:000    Tables in Rsdt: 24
+33:586  0:000    0. 796F71A0: 'FACP', 'CBX3', Rev: 2, Len: 132
+33:586  0:000        (Dsdt: 796F7228, Facs: 79EDCF40)
+33:586  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:588  0:001        79EDCF40: 'FACS', Ver: 0, Len: 64
+33:588  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:588  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:588  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:588  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:588  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:588  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:588  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:588  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:588  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:588  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:588  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:588  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:588  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:588  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:588  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:588  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:588  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:588  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:588  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:588  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:588  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:588  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:588  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
+33:588  0:000  Found UEFI Acpi 2.0 RSDP at 796F7000
+33:588  0:000  Saving ACPI tables from RSDP 796F7000 to EFI\CLOVER\ACPI\origin ...
+33:588  0:000   796F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+33:588  0:000    (Xsdt: 796F70B0, Rsdt: 796F7028)
+33:588  0:000    796F70B0: 'XSDT', 'CBX3', Rev: 1, Len: 228
+33:588  0:000    796F7028: 'RSDT', 'CBX3', Rev: 1, Len: 132
+33:588  0:000    Tables in Xsdt: 24
+33:588  0:000    0. 79718180: 'FACP', 'CBX3', Rev: 5, Len: 268
+33:588  0:000        (Dsdt: 796F7228, Facs: 79EDCF80, XDsdt: 796F7228, XFacs: 0)
+33:588  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:589  0:001        79EDCF80: 'FACS', Ver: 2, Len: 64
+33:589  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:589  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:589  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:589  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:589  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:589  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:589  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:589  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:589  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:589  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:589  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:589  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:589  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:589  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:589  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:589  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:589  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:589  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:589  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:589  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:589  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:589  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:589  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
+33:589  0:000    Tables in Rsdt: 24
+33:589  0:000    0. 796F71A0: 'FACP', 'CBX3', Rev: 2, Len: 132
+33:589  0:000        (Dsdt: 796F7228, Facs: 79EDCF40)
+33:589  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:591  0:001        79EDCF40: 'FACS', Ver: 0, Len: 64
+33:591  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:591  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:591  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:591  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:591  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:591  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:591  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:591  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:591  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:591  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:591  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:591  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:591  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:591  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:591  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:591  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:591  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:591  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:591  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:591  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:591  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:591  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:591  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
+33:591  0:000  Found UEFI Acpi 1.0 RSDP at 796F7000
+33:591  0:000  Printing ACPI tables from RSDP 796F7000 ...
+33:591  0:000   796F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+33:591  0:000    (Xsdt: 796F70B0, Rsdt: 796F7028)
+33:591  0:000    796F70B0: 'XSDT', 'CBX3', Rev: 1, Len: 228
+33:591  0:000    796F7028: 'RSDT', 'CBX3', Rev: 1, Len: 132
+33:591  0:000    Tables in Xsdt: 24
+33:591  0:000    0. 79718180: 'FACP', 'CBX3', Rev: 5, Len: 268
+33:591  0:000        (Dsdt: 796F7228, Facs: 79EDCF80, XDsdt: 796F7228, XFacs: 0)
+33:591  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:593  0:001        79EDCF80: 'FACS', Ver: 2, Len: 64
+33:593  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:593  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:593  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:593  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:593  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:593  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:593  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:593  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:593  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:593  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:593  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:593  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:593  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:593  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:593  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:593  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:593  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:593  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:593  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:593  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:593  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:593  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:593  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
+33:593  0:000    Tables in Rsdt: 24
+33:593  0:000    0. 796F71A0: 'FACP', 'CBX3', Rev: 2, Len: 132
+33:593  0:000        (Dsdt: 796F7228, Facs: 79EDCF40)
+33:593  0:000        796F7228: 'DSDT', 'CBX3', Rev: 2, Len: 134995
+33:595  0:001        79EDCF40: 'FACS', Ver: 0, Len: 64
+33:595  0:000    1. 79718290: 'APIC', 'CBX3', Rev: 3, Len: 132
+33:595  0:000    2. 79718318: 'FPDT', 'CBX3', Rev: 1, Len: 68
+33:595  0:000    3. 79718360: 'FIDT', 'CBX3', Rev: 1, Len: 156
+33:595  0:000    4. 79718400: 'MCFG', 'CBX3', Rev: 1, Len: 60
+33:595  0:000    5. 79718440: 'HPET', 'CBX3', Rev: 1, Len: 56
+33:595  0:000    6. 79718478: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+33:595  0:000    7. 79718790: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+33:595  0:000    8. 79718828: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+33:595  0:000    9. 79718A70: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+33:595  0:000    10. 7971B620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+33:595  0:000    11. 7971C208: 'DBGP', '', Rev: 1, Len: 52
+33:595  0:000    12. 7971C240: 'DBG2', '', Rev: 0, Len: 84
+33:595  0:000    13. 7971C298: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1847
+33:595  0:000    14. 7971C9D0: 'BOOT', 'CBX3', Rev: 1, Len: 40
+33:595  0:000    15. 7971C9F8: 'SSDT', 'SaSsdt', Rev: 2, Len: 13742
+33:595  0:000    16. 7971FFA8: 'UEFI', '', Rev: 1, Len: 66
+33:595  0:000    17. 7971FFF0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+33:595  0:000    18. 79720E68: 'MSDM', 'CBX3', Rev: 3, Len: 85
+33:595  0:000    19. 79720EC0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15191
+33:595  0:000    20. 79724A18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+33:595  0:000    21. 79724B90: 'BGRT', '', Rev: 0, Len: 56
+33:595  0:000    22. 79724BC8: 'DMAR', 'SKL', Rev: 1, Len: 240
+33:595  0:000    23. 79724CB8: 'ASF!', ' HCG', Rev: 32, Len: 165
